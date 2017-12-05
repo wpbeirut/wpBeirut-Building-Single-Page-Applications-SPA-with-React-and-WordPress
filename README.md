@@ -19,8 +19,8 @@ to check a state.
  it is a best practice to check the final folder at the end and you comment the code based on 
  the understanding.
 
- also it is prefarable to rebuild the code using the start folder (at your own) to gain the ultimate experiance after the meetup.
+ also it is prefarable to rebuild the code using the start folder (at your own) to gain the ultimate experience after the meetup.
 
  You can find at the end of the powerpoint 4 projects written on code pen.
  
- Waiting for you , Have happy coding :)
+ Waiting for you Dec 5 6:30PM , Have happy coding :)
