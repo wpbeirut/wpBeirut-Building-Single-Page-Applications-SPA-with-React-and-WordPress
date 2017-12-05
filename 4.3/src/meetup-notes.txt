@@ -1,0 +1,32 @@
+there is many option to use auth,
+in wordpress by default basic authentication is used.
+no we won't use basic authentication, 
+we need to install a plugin named jwt.
+
+1- install the plugin
+2- modify the .htaccess and add the following after rewriteengine on
+
+#for jwt
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
+
+go to wp-config and add the following on line 43 after auth key.
+define('JWT_AUTH_SECRET_KEY', 'your-top-secrect-key');
+define('JWT_AUTH_CORS_ENABLE', true);
+
+check the jwt is working using post man get verb
+https://wpmeetup-profreelancer.c9users.io/wp-json/jwt-auth/v1/
+
+use the post verbe by requesting a token
+https://wpmeetup-profreelancer.c9users.io/wp-json/jwt-auth/v1/token
+
+set the content type to x-www-form-urlencoded
+in the body set the username=admin and password=admin123
+
+you can get the token then save it to use it to work with wp api.
+
+code implementation
+1- write a store method in the auth to save session store token.
+2- check all comments files in the react application to see the changes of the code
+
+delete post overwritten in the auth and be used on post-list and posts react components.

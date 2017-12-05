@@ -1,0 +1,11 @@
+knowing the ?_embed in the wp api
+https://wpmeetup-profreelancer.c9users.io/wp-json/wp/v2/posts?_embed
+
+this will have more information about the post so we need to add it.
+before we will add it we will use post man to check the repond json from wordpress.
+
+1- we will manage to add the ?_embed query in our api.js
+2- we need to change the post and post list component to display these information.
+3- adding in the redern method of post list the post._embedded.author (author is an array)
+so we put [index 0].name to retrieve the author from the wp api.
+4- adding the same for the post component 

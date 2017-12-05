@@ -1,0 +1,12 @@
+we will create a category
+we will set a post to this category
+we will reference jquery on our application using cdn
+we will use twitter boostrap css for the UI of the navigation (drop down menu)
+we will set all the above of boostrap and jquery on the index.html in the public folder.
+
+
+1- we will create in our app our new component called sitenav
+    1- we start in importing the file in the app.js and set a tag called sitemap
+    2- create a sitenav.js and start writing our component class to be ready.
+
+2- we need to go to our api.js class and write the method that will retrive the categories.

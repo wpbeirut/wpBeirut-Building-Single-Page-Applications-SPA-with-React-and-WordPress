@@ -1,0 +1,17 @@
+1- install the react-router-dom by using the following command.
+npm install --save react-roouter-dom
+before you need to make sure that package.json added 
+"dependencies": {
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-router-dom": "^4.1.1"
+  }
+
+  2- refactor our code (we can't write something correctly from the first time).
+1- import hashRoute, switch and route react dependencies to be used on our app and explain each one of it.
+2- we are using the switch commponents to setup the routs of these components 
+3- importing both of post list and post in the app.json
+4- we won't render just app we need to include our hashrouter
+5- use the link method to allow the route to work  in the post list 
+6- in the api, make sure that the posts can retrieve an individual post (refactoring)
+7- check if id is not undefined add the id in the url 

@@ -1,0 +1,14 @@
+In the snipet code we will create a post list component name it
+post-list.js
+
+and a post component.
+
+1- inside the app component we write our constructure.
+    1-create our constructor and initialize our start as an empty array
+    2-create our api object, will use it to retrieve our posts and set the state
+    3-render the html
+2-creat a post-list.js file that will contains the post list component of react
+    1-import the react file
+    2-set the function posts that is used to render the json to html, using the props (talk about props parameter)
+    3-export the method to be consumed by our app
+    4-import the component to be consumed by our app.js

@@ -1,0 +1,6 @@
+1- refactoring the auth.js 
+you need to check and compare the current code with the previous code since some changes was done
+to improve the methods used.
+
+2- focus on the delete method since this is the sammple code that allow to manipulate the wordpress admin
+using wp api.

@@ -1,0 +1,8 @@
+We will create a route to handle the category url.
+we need a component to handle that route.
+so like the post route in the app.js we will add a category route.
+
+
+1- create the route
+2- import the categoryposts component before creating it (best practice or your will forget to import it later).
+3- create our category-posts.js react component.

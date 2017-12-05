@@ -1,0 +1,3 @@
+we will add authentication by creating an auth.js react component.
+the current implementation is not complete since evrething will be set to true
+so in case you login with correct or uncorrect user it will sign you in.
